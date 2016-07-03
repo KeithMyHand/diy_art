@@ -1,0 +1,72 @@
+<Solution>
+  <PropertyGroup Name="diy_cocosstudio" Version="2.3.2.3" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="GUILoading.csd" Type="Scene" />
+        <Folder Name="UI">
+          <Image Name="loading_bg.png" />
+          <Image Name="logo.png" />
+          <Folder Name="MessageBox">
+            <Image Name="cancle_btn.png" />
+            <Image Name="confirm_btn.png" />
+            <Image Name="message_bg.png" />
+            <Image Name="BLACK_BG.png" />
+          </Folder>
+          <Folder Name="Login">
+            <Image Name="login_btn.png" />
+            <Image Name="login_input_bg.png" />
+            <Image Name="bg_01.png" />
+            <Image Name="forget_passwaord_btn.png" />
+          </Folder>
+          <Folder Name="Register">
+            <Image Name="register_back_btn.png" />
+            <Image Name="register_bg.png" />
+            <Image Name="register_btn.png" />
+            <Image Name="register_btn_disabled.png" />
+            <Image Name="register_btn_normal.png" />
+            <Image Name="register_name.png" />
+            <Image Name="register_name_dialog_bg.png" />
+            <Image Name="register_phone.png" />
+            <Image Name="register_select_bar.png" />
+            <Image Name="register_tab_bg.png" />
+            <Image Name="register_top_bg.png" />
+            <Image Name="register_top_title.png" />
+          </Folder>
+          <Folder Name="UserMain">
+            <Image Name="user_main_title.png" />
+            <Image Name="user_main_top_bg.png" />
+            <Image Name="user_main_user_bg.png" />
+            <Image Name="user_main_user_icon.png" />
+            <Image Name="user_main_user_icon_bg.png" />
+            <Image Name="bottom_bg.png" />
+            <Image Name="bottom_choose_bg.png" />
+            <Image Name="user_main_article_bg.png" />
+            <Image Name="article_icon.png" />
+            <Image Name="no_article.png" />
+            <Image Name="focus.png" />
+            <Image Name="hall_title.png" />
+            <Image Name="main.png" />
+            <Image Name="main_bottom_select.png" />
+            <Image Name="publish_article_btn.png" />
+          </Folder>
+          <Folder Name="Publish">
+            <Image Name="publish_article_title.png" />
+            <Image Name="publish_article_add_btn.png" />
+            <Image Name="publish_article_add_picture.png" />
+            <Image Name="publish_article_add_picture_2.png" />
+            <Image Name="publish_article_add_text.png" />
+            <Image Name="publish_article_add_text_2.png" />
+            <Image Name="publish_article_add_title.png" />
+            <Image Name="publish_article_add_title_2.png" />
+          </Folder>
+        </Folder>
+        <Project Name="GUILogin.csd" Type="Scene" />
+        <Project Name="MessageBox.csd" Type="Scene" />
+        <Project Name="GUIRegister.csd" Type="Scene" />
+        <Project Name="GUIUserMain.csd" Type="Scene" />
+        <Project Name="GUIPublishArticle.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
